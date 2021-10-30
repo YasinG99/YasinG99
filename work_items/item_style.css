@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-fancy: 'Lobster', cursive;
+  --font-title: 'Kaisei HarunoUmi', serif;
+  --font-paragraph: 'Montserrat', sans-serif;
+
+  --colour-dark: rgb(15,76,92); /* darker blue */
+  --colour-light: rgb(227,100,20); /* orange */
+
+  --bold-font: 900;
+
+  --font-size-h1: 3.5rem;
+  --font-size-h2: 2.25rem;
+  --font-size-h3: 1.25rem;
+  --font-size-body: 1rem;
+
+  --box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25);
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+  background: var(--colour-dark);
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: none;
+}
+section {
+  padding: 4em 5em;
+}
+
+strong{
+  display: block;
+}
+
+.top_banner{
+  background-image: url(../IMG/engine.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.intro{
+  width: 80%;
+  margin: 0 auto;
+}
+.item_title{
+  font-size: var(--font-size-h1);
+  color: #fff;
+  width: 60%;
+  padding: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent transparent #fff #fff ;
+  text-transform: uppercase;
+}
+
+.item_description {
+  max-width: 60%;
+  padding: 40px;
+  text-align: center;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+}
+
+.call_link{
+  display: inline-block;
+  margin-top: 1em;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--colour-dark);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  transition: transform 200ms ease-in-out;
+}
+
+.call_link:hover{
+  transform: scale(1.2);
+}
+.description_image{
+  max-width: 400px;
+  box-shadow: -0.5em 0.25em 0.8em rgba(0,0,0,0.5);
+  position: absolute;
+  right: 2em;
+  bottom: 12em;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+.image_square{
+  width: 400px;
+  height: 300px;
+  background: var(--colour-light);
+  opacity: 0.7;
+  position: absolute;
+  right: 4em;
+  bottom: 9em;
+  border-radius: 10px;
+}
+
+.background_text {
+  position: absolute;
+  z-index: -2;
+  font-size: 7em;
+  top: 1em;
+  right: 0.2em;
+  opacity: 0.5;
+  color: var(--colour-light);
+}
+
+.skills {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.icon i {
+  color: var(--colour-light);
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  bottom: 3em;
+  transform: scale(7);
+  z-index: -1;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport is the users visible area of the webpage -->
+      <title>Portfolio_2</title>
+      <link rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/normalize.min.css"> <!-- removes differences between different browsers i.e chrome google -->
+
+      <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Lobster&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="../CSS/style.css">
+  </head>
+
+  <body>
+
+    <!-- Landing Page -->
+    <header class="landing_page">
+          <nav class="nav_bar">
+            <h2 class="logo">My Online Portfolio </h2>
+            <ul class="nav_items">
+                <li><a href="#about"> About Me </a></li>
+                <li><a href="#work"> My Work </a></li>
+                <li><a href="#contact"> Contact Me </a></li>
+            </ul>
+          </nav>
+
+        <section class="introduction">
+          <div class="background_text">
+            <h1> Mechanical Engineer </h1>
+          </div>
+          <div class="intro">
+            <h1> Hi, <span class="exclamation"> I am</span> <strong> Yassin Gubara.  </strong> </h1>
+          </div>
+          <img src="../IMG/001.svg" class="filled_squares"/>
+          <img src="../IMG/002.SVG" class="outline_square"/>
+        </section>
+      </header>
+
+
+    <!-- ABOUT ME -->
+    <section class="about_me" id="about">
+      <img src="../IMG/hexagon.svg" class="hexagon"/>
+      <div class="about_me_text">
+        <h2 class="about_me_title">A bit about me.</h2>
+        <p class="text"> I am a 3<sup>rd</sup> year Mechanical Engineer with a fascination in robotics and software. I have done over 50 hours of self-learning
+          to improve my coding skills. I have always aimed to prioritize environmental protection whilst developing technological solutions and aiding to innovate
+          in the world of Engineering. My ability to fail and continuosly persist in reaching a goal is a strength I am most proud of.  
+        </p>
+      <div>
+        <img src="../IMG/line.svg" class="line_design_1" style="transform: scale(0.8); position: absolute; right: -30em; bottom: -5em;"/>
+        <img src="../IMG/line.svg" class="line_design_2" style="transform: scale(0.8); position: absolute; right: -20em; bottom: -5em;"/>
+    </section>
+
+
+    <!-- My Work -->
+    <section class="my_work" id="work">
+      <div class="background_square">
+      </div>
+      <h2 class="portfolio_title">My Portfolio!</h2>
+      <div class="portfolio_items">
+        <div class="portfolio_item">
+          <h2 class="item_title"><a href="../work_items/mars_buggy.html" target="_blank"> Mars Buggy</a> </h2> <img src="../IMG/engine.jpg" alt="">
+          <i class="fas fa-arrow-right fa-4x"></i>
+        </div>
+        <div class="portfolio_item">
+          <h2 class="item_title"><a href=""> Colonoscopy Arm </a></h2> <img src="../IMG/prototype.jpg" alt="">
+          <i class="fas fa-arrow-right fa-4x"></i>
+        </div>
+        <div class="portfolio_item">
+          <h2 class="item_title"><a href=""> Beginner JavaScript Projects </a> </h2> <img src="../IMG/JavaScript_Cover.png" alt="">
+          <i class="fas fa-arrow-right fa-4x"></i>
+        </div>
+      </div>
+      <img src="../IMG/001.svg" class="filled_squares_work"/>
+      <img src="../IMG/002.svg" class="outline_square_work"/>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+    <section>
+      <div class="footer" id="contact">
+        <div class="footer_text">
+          <p><h2> Contact Me! </h2> 07123456789 <br> student@gmail.com</p>
+        </div>
+        <div class="pseudo_icon">
+          <i class="far fa-address-card"></i>
+        </div>
+        <ul class="icons">
+          <li class="icon_item"><i class="fab fa-instagram fa-3x"></i></li>
+          <li class="icon_item"><i class="fab fa-facebook-square fa-3x"></i></li>
+          <li class="icon_item"><i class="fab fa-youtube-square fa-3x"></i></li>
+          <li class="icon_item"><i class="fab fa-twitter fa-3x"></i></li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
